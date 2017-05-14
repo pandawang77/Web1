@@ -1,0 +1,36 @@
+.menu{
+	padding:0px;
+}
+#titlediv{
+	background:url(../image/left_nav_title.gif) no-repeat;
+	height:20px;
+	color:white;
+	padding:10px 50px;
+}
+.one{
+	background:url(../image/left_nav_txt.gif) repeat-y;
+	height:100px;
+
+}
+ul{
+	list-style-image:url(../image/left_cur.gif);
+}
+li{
+	background:url(../image/left_nav_item.gif) no-repeat;
+	width:100px;
+	height:35px;
+}
+
+
+a{
+	text-decoration:none;
+	color:black;
+}
+.checked{
+	color:red;
+}
+#footerdiv{
+	width:200px;
+	height:35px;
+	background:url(../image/left_nav_bottom.gif) no-repeat;
+}
