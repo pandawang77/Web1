@@ -6,10 +6,17 @@ body{
 	font-family: '宋体';
 	border-style: none;
 	list-style-type:none;
+	
 }
-a{text-decoration: none;}
-a:link{color: #522a06;}
-a:hover{text-decoration: underline;}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #fff;
+}
+a:hover{
+	text-decoration: underline;
+}
 #header{
 	background-image: url(../images/bg.gif);
 	height: 205px;
@@ -24,10 +31,14 @@ a:hover{text-decoration: underline;}
 	height: 130px;		
 }
 #nav{	
-	float: left;		
+	float:left;		
 	height: 40px;
 	background-image: url(../images/nav.jpg);
-	width: 1000px;
+	width: 100%;
+	background-repeat: repeat-x;
+	height: 40px;
+	padding: 0;
+	margin-top: auto 0;
 }
 .nav_body{
 	width: 1000px;
@@ -49,17 +60,8 @@ a.two:hover{
 	text-decoration: none;
 	color: #f9f603;
 }
-.nav_searchtext{
-	width: 140px;
-	height: 19px;
-	background-color: #f8f5ee;
-}
-.nav_searchbutton{
-	width: 44px;
-	height: 21px;
-	background-color: #000;
-	color:white;
-	border:1px solid  #f8f5ee;
+.nav_serach{
+	float: right;
 }
 #content{
 	width: 1300px;
@@ -268,10 +270,9 @@ a.two:hover{
 	float: left;
 	height: 150px;
 	width: 150px;
-｝
-.fc5{
-	list-style-type:none;
-	float: left;
+}
+#fc5{
+	list-style-type: none;
 }
 .yzfc1{
 	background-image: url(../images/more.png);
@@ -336,18 +337,19 @@ a.two:hover{
 	margin-top: -20px;
 }
 .xswljc{
-	float: left;
+	
 	margin-top: -120px;
 	margin-left: 380px;
 	text-align: center;
 }
 .ljcxsw{
-	float: left;
-	margin-top: -70px;
-	margin-left: 450px;
+	
+	margin-top: -3px;
+	margin-left:700px;
+	color: #522a06;
 }
 .jkl{
-	float: left;
-	margin-top: -100px;
-	margin-left: 390px;
+	
+	margin-top: -10px;
+	margin-left: 580px;
 }
