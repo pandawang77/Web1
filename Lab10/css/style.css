@@ -12,7 +12,7 @@ a{
 	text-decoration: none;
 }
 a:link{
-	color: #fff;
+	color: #522a06;
 }
 a:hover{
 	text-decoration: underline;
@@ -43,7 +43,7 @@ a:hover{
 .nav_body{
 	width: 1000px;
 	font-weight: bold;
-	color: #fff;
+	color: #522a06;
 	line-height: 40px;
 			
 }
@@ -54,7 +54,7 @@ a:hover{
 	float: left;
 }
 a.two:link{
-	color: #fff;
+	color: #522a06;
 }
 a.two:hover{
 	text-decoration: none;
@@ -135,6 +135,7 @@ a.two:hover{
 	width: 50px;
 	margin-right: -590px;
 	margin-top: -210px;
+	color: #522a06;
 }
 #news_announce{
 	width: 277px;
@@ -198,6 +199,7 @@ a.two:hover{
 	width: 100px;
 	margin-right: -10px;
 	margin-top: -50px;
+	color: #522a06;
 }
 #book_news{
 	width: 450px;
@@ -235,6 +237,7 @@ a.two:hover{
 	width: 80px;
 	margin-right: -450px;
 	margin-top: -160px;
+	color: #522a06;
 }
 #fengcai{
 	width: 1000px;
@@ -339,17 +342,17 @@ a.two:hover{
 .xswljc{
 	
 	margin-top: -120px;
-	margin-left: 380px;
+	margin-left: 220px;
 	text-align: center;
 }
 .ljcxsw{
 	
 	margin-top: -3px;
-	margin-left:700px;
+	margin-left:600px;
 	color: #522a06;
 }
 .jkl{
 	
 	margin-top: -10px;
-	margin-left: 580px;
+	margin-left: 500px;
 }
