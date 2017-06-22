@@ -1,0 +1,235 @@
+body{
+    background-image: url(../images/bodybg.jpg);
+    font-size: 18px;
+    color: #bebebe;
+    font-family: '宋体';
+    border-style: none;
+    list-style-type:none;
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+*{
+    margin:0 auto;
+    padding: 0;
+    border: 0px;
+
+}
+a{
+    text-decoration: none;
+    color: #00cd66;
+}
+a:hover{
+    text-decoration: underline;
+}
+#header{
+    background-image: url(../images/banner3.jpg);
+    height: 205px;
+    background-size: cover;
+    width: 100%;
+}
+#banner{
+    float: left;
+    margin-left: 25px;
+    margin-top: 38px;
+    width: 1000px;
+    height: 130px;      
+}
+#nav{   
+    float:left;     
+    height: 40px;
+    background-image: url(../images/nav.jpg);
+    width: 100%;
+    background-repeat: repeat-x;
+    height: 40px;
+    padding: 0;
+    margin-top: auto 0;
+}
+.nav_body{
+    width: 1000px;
+    font-weight: bold;
+    color: #233333;
+    line-height: 40px;
+            
+}
+.nav_content{
+    width: 800px;
+    position: center;
+    float: left;
+}
+a.two:link{
+    color: #fff;
+    font-family: '方正特粗光辉简体';
+}
+a.two:hover{
+    text-decoration: none;
+    color: #836fff;
+}
+.nav_serach{
+    float: right;
+}
+#footer{
+    height: 105px;
+    clear: both;
+    background-image: url(../images/foot.gif);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+a.yj:link{
+    color: #fff;
+
+}
+a.yj:hover{
+    text-decoration: none;
+    color: #fff;
+}
+a.yj{
+    text-align: center;
+    color: #fff;
+}
+#content{
+    width: 1000px;
+    overflow: hidden;
+    color: #00cd66;
+    margin-top: 15px;
+}
+.imgage{
+    float: left;
+    width: 210x;
+    margin-left: 1px;
+    border: 1px solid #bebebe;
+}
+.picture{
+    text-align: center;
+    width:144px;
+    height: 108px;
+    margin: 5px 8px;
+}
+.desc{
+    text-align: center;
+    font-size: 12px;
+    font-family: '幼圆'；
+}
+div.imgage img{
+    display: inline;
+    margin:3px;
+    border: 1px solid #bebebe;
+    width: 200px;
+    height: 160px;
+    opacity: 0.85;
+}
+div.imgage a:hover img{
+    border:1px solid #333333;
+    opacity: 1
+}
+#tujian{
+    font-size: 24px;
+    color: #ff8247;
+    font-family: '方正特粗光辉简体';
+    margin-left: 3px;
+    margin-top: 8px;
+}
+#zhong_left{
+    width: 30%;
+    background-image: url(../images/news_bg.png);
+    float: left;
+    color: #bebebe;
+    margin-top: 10px;
+}
+#zhong_zhong{
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+#zhong_right{
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+    padding-left: 5px;
+    position: absolute;
+    top: 440px;
+    left:800px;
+}
+.qiyuan{
+    text-align: center;
+    font-size: 14px;
+    color: #ffd700;
+    font-family: '方正胖娃简体'
+}
+.qy{
+    text-indent: 2em;
+    line-height: 22px; 
+    color: #ffb6c1;
+    font-family: '方正稚艺简体';
+}
+#content_zhong{
+    margin-top: 10px;
+    padding-top: 5px;
+}
+a.jiang:link{
+    color: #fff;
+    font-family: '方正稚艺简体';
+}
+a.jiang:hover{
+    text-decoration: none;
+    color: #836fff;
+}
+ul,li#jiang{
+    list-style: none;
+}
+#caipupic{
+    width: 300px;
+    height:225px;
+    float: left;
+    position:relative;
+    left: 65px;
+}
+#cp{
+    text-align: center;
+    font-size: 14px;
+    color: #ffd700;
+    font-family: '方正胖娃简体';
+    position: relative;
+    left: -90px;
+}
+#caipu{
+    text-indent: 2em;
+    line-height: 22px; 
+    color: #0000EE;
+    font-family: '方正稚艺简体';
+    text-align: center;
+    position: relative;
+    top:230px;
+    left:-240px;
+}
+#content_bottom{
+    width: 660px;
+    height: 300px;
+    margin-top: 10px;
+}
+.lefter{
+    float: left;
+    padding:5px;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
+    left:-615px;
+    top: 340px;
+}
+.righter{
+    width: 450px;
+    height: 300px;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+    left: -155px;
+    top:120px;
+}
+.righter p{
+    font-family: '方正稚艺简体';
+    font-size: 12px;
+    line-height: 24px;
+    text-indent: 24px;
+}
